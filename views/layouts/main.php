@@ -108,9 +108,7 @@ AppAsset::register($this);
     }
     ?>
 
-
     <div class="container">
-        <div class="alert alert-danger">SCNUOJ 数据回迁工作预计在本周五晚上 18:30 开始进行，届时 SCNUOJ 将无法访问。预期完成时间未知，届时请留意相关通知。</div>
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
